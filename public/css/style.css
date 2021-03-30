@@ -1,9 +1,267 @@
 body {
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
     background-image: url(../images/bg.jpg);
-    background-repeat: repeat-y;
-    background-size: 100%;
-    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    color: rgba(0, 0, 0, 0.5);
+    width: 73%;
+}
+
+/*        */
+/* Header */
+/*        */
+
+header {
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+header > h1 {
+    font-weight: 700;
+    font-size: 4rem;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    margin-top: 6.1rem;
+}
+
+header > span {
+    color: rgba(255, 255, 255, 0.65);
+    font-weight: 300;
+    font-size: 1rem;
+    margin-top: -19.5px;
+    padding-top: 0;
+    margin-bottom: 65px;
+}
+
+/*      */
+/* Main */
+/*      */
+
+main {
+    box-shadow: 0px 0px 35px 1px rgb(0, 0, 0);
+}
+
+/* Image */
+
+main > div {
+    margin-bottom: -5px;
+}
+
+main > div > img {
+    width: 100%;
+}
+
+section {
+    padding: 0;
+    margin: 0;
+}
+
+/* Section Fringilla */
+
+#fringilla {
+    background-color: white;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#fringilla > div:first-of-type {
+    padding-top: 47px;
+    padding-bottom: 68px;
+}
+
+#fringilla > div > h2 {
+    color: #1e1f23;
+    font-weight: 700;
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+}
+
+#fringilla > div > span {
+    color: #bbb;
+    font-weight: 300;
+    font-size: .8rem;
+    letter-spacing: .25rem;
+    text-transform: uppercase;
+}
+
+#fringilla > div:last-of-type {
+    background-color: rgba(220, 220, 220, 0.275);
+    color: rgba(0, 0, 0, 0.5);;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 89px 0;
+}
+
+#fringilla > div > p {
+    width: 78%;
+}
+
+/* Section Vestibulum */
+
+#vestibulum {
+    background-color: #1e1f23;
+    color: white;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#vestibulum > div {
+    background-color: #121315;
+    margin: 104px;
+}
+
+#vestibulum h2 {
+    font-weight: 700;
+    font-size: 1.75rem;
+}
+
+#vestibulum span {
+    color: rgba(255, 255, 255, 0.25);
+    text-transform: uppercase;
+    font-size: .8rem;
+    letter-spacing: .25rem;
+}
+
+#vestibulum > div > div > div {
+    margin: 0;
+    padding: 0;
+}
+
+#vestibulum img {
+    height: 294px;
+    margin: 0;
+    padding: 0;
+}
+
+/* Section Viverra */
+
+#viverra {
+    background-color: white;
+}
+
+#viverra>div {
+    height: 520px;
+    display: flex;
+    flex-direction: row;
+}
+
+#viverra > div > div:last-of-type {
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+    padding-left: 104px;
+}
+
+#viverra h3 {
+    color: #1e1f23;
+    font-weight: 700;
+    font-size: 1.35rem;
+}
+
+/* Section Curabitur */
+
+#curabitur {
+    background-color: #1e1f23;
+    color: rgba(255, 255, 255, 0.25);
+}
+
+#curabitur>div {
+    height: 520px;
+    display: flex;
+    flex-direction: row;
+}
+
+#curabitur > div > div:first-of-type {
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    justify-content: center;
+    padding-right: 104px;
+    padding-left: 145px;
+    
+}
+
+#curabitur h3 {
+    color: white;
+    font-weight: 700;
+    font-size: 1.35rem;
+}
+
+#curabitur > div > div:last-of-type {
+    display: flex;
+    justify-content: right;
+}
+
+#curabitur img {
+    
+    right: 0px;
+}
+
+/* Section Morbi */
+
+#morbi {
+    background-color: white;
+}
+
+#morbi>div {
+    height: 520px;
+    display: flex;
+    flex-direction: row;
+}
+
+#morbi > div > div:last-of-type {
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+    padding-left: 104px;
+}
+
+#morbi h3 {
+    color: #1e1f23;
+    font-weight: 700;
+    font-size: 1.35rem;
+}
+
+/*        */
+/* Footer */
+/*        */
+
+footer {
+    color: #bbb;
+        height: 223px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+footer > div:first-of-type {
+    padding: 2rem 0 1.1rem 0;
+    letter-spacing: .65rem;
+}
+
+footer p {
+    font-size: 1rem;
+    margin-bottom: 2rem;
 }
