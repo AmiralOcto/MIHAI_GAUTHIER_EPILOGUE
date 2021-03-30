@@ -1,0 +1,479 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+section {
+    font-family:"Source Sans Pro";
+}
+
+body {
+    font-size: 17pt;
+    font-weight: 200;
+    background-color: #eeebeb;
+}
+
+/* Header  */
+#epilogue {
+    font-size: 4rem;
+    padding: 0 0.5rem 0.25rem 0.5rem;
+    border-bottom: solid 2px #fff;
+    font-family: "Pacifico";
+}
+
+
+#header {
+background-image: linear-gradient(rgba(102, 102, 102, 0.103),rgba(27, 39, 212, 0.692)),url(/public/images/banner.jpg);
+background-repeat: no-repeat;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+text-align: center;
+color: white;
+position: relative;
+line-height: 2.5;
+}
+
+
+.head {
+    height: 20em;
+    min-height: 30vh;
+}
+
+.head span {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin-top: 20px;
+}
+
+/* Fin Header */
+
+/* Premiere Section */
+
+.container {
+    width: 80vw;
+    margin :0 auto;
+    max-width: 100%;
+    padding: 1em 0 2em 0;
+    margin-top: 3em;
+}
+
+#debut {
+padding: 4em 4em 2em 4em;
+background-color: #fffffff3;
+border-radius: 4px;
+text-align: center;
+display: block;
+}
+
+#debut p {
+    margin-bottom: 2em;
+    padding-left: 15em;
+    padding-right: 15em;
+}
+
+.diams {
+    height: 100px;
+    display: inline-block;
+    margin-bottom: 2em;
+    text-align: center;
+}
+
+.titreintro {
+    color: #444444;
+    font-size:2em ;
+    letter-spacing: 0.2em;
+    margin-bottom: 2em;
+}
+
+.btn:link,
+.btn:visited {
+text-transform: uppercase;
+text-decoration: none;
+padding: 15px 40px;
+display: inline-block;
+border-radius: 100px;
+transition: all .2s;
+}
+
+.btn:hover {
+    transform:translateY(-3px );
+    box-shadow: 0 10px 20px rgba(0, 0,0,.3);
+}
+
+.btn:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0,0,.3); 
+}
+.btn-blanc {
+background-color:#fff;
+color: #777;
+}
+
+/* Section Cartes */
+
+.cartes {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    width: calc(100% + 2em);
+    margin: -2em 0 0 -2em;
+    
+} 
+
+
+.unecarte {
+    margin: 2em 0 0 2em;
+    width: calc(50% - 2em);
+    text-align: center;
+    display: block;
+    position: relative;
+    padding: 3em 3em 1em 3em;
+    background-color: #ffffff;
+    text-align: center;
+    border-radius: 2px;
+}
+
+section>div>div>div>img {
+margin: -4.5em 0 2em -3em;
+width: calc(100% + 6em);
+height: 13em;
+display: block;
+border-radius: 2px;
+display: block;
+position: relative;
+}
+
+.unecarte p {
+    padding-bottom: 10vh;
+}
+
+section>div>div>div>h3 {
+    z-index: 1;
+    position: relative;
+    display: inline-block;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    transform: translateY(100%);
+
+}
+
+
+.btn-cartes {
+    margin: 5px;
+    padding: 2vh 2.5vw;
+    border-radius: 5px;
+    background-color: #fff;
+    transition: all 0.2s;
+    letter-spacing: 5px;
+    border: solid 2px grey;
+
+}
+
+.btn-cartes:hover {
+    transform:translateY(-3px );
+    box-shadow: 0 10px 20px rgba(0, 0,0,.3);
+}
+
+.btn-cartes:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0,0,.3); 
+}
+
+/* Fin Cartes */
+
+
+/* Section avant Footer */
+
+#etiam {
+    text-align: center;
+    margin-bottom: 4em;
+    padding: 2em 0 0.1em 0;
+    text-align: center;
+    display: block;
+}
+
+
+#etiam h1 {
+    letter-spacing: 5px;
+}
+
+#etiam p {
+    text-align: center;
+    display: block;
+    margin: 2em 0 2em 0;
+}
+
+#classhr {
+margin-left: 35vw;
+margin-right: 35vw;
+margin-bottom: 15vh;
+}
+
+/* Footer */
+
+footer>div>i {
+    color: rgb(100, 100, 100);
+    margin-right: 5vh;
+    margin-bottom: 2vh;
+}
+
+footer>div {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin-top: 2vh;
+}
+
+footer>div>p {
+    font-size: 13px;
+    color: gray;
+}
+
+/* Media Queries */
+
+@media all and (min-width: 1024px) and (max-width: 1280px) {
+    #debut p {
+    margin-bottom: 2em;
+    padding-left: 10em;
+    padding-right: 10em;
+    font-size: 15pt;
+}
+ }
+ 
+@media all and (min-width: 768px) and (max-width: 1024px) {
+    #debut p {
+    margin-bottom: 2em;
+    padding-left: 3em;
+    padding-right: 3em;
+    font-size: 15pt;
+}
+
+#epilogue {
+    font-size: 4rem;
+    padding: 0 0.5rem 0.25rem 0.5rem;
+    border-bottom: solid 2px #fff;
+    font-family: "Pacifico";
+}
+
+.head span {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.cartes {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    width: calc(100% + 2em);
+    margin: -2em 0 0 -2em;
+    
+} 
+
+
+.unecarte {
+    margin: 2em 0 0 2em;
+    width: calc(100% - 2em);
+    text-align: center;
+    display: block;
+    position: relative;
+    padding: 3em 3em 1em 3em;
+    background-color: #ffffff;
+    text-align: center;
+    border-radius: 2px;
+}
+
+section>div>div>div>img {
+margin: -4.5em 0 2em -3em;
+width: calc(100% + 6em);
+height: 13em;
+display: block;
+border-radius: 2px;
+display: block;
+position: relative;
+}
+
+.unecarte p {
+    padding-bottom: 10vh;
+}
+
+section>div>div>div>h3 {
+    z-index: 1;
+    position: relative;
+    display: inline-block;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    transform: translateY(100%);
+
+}
+
+}
+
+@media all and (min-width: 480px) and (max-width: 768px) {
+
+#epilogue {
+    font-size: 4rem;
+    padding: 0 0.5rem 0.25rem 0.5rem;
+    border-bottom: solid 2px #fff;
+    font-family: "Pacifico";
+}
+
+.head span {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin-top: 20px;
+    font-size: 10px;
+
+}
+
+#debut p {
+    margin-bottom: 2em;
+    padding-left: 3em;
+    padding-right: 3em;
+    font-size: 12pt;
+ }
+
+.titreintro {
+    color: #444444;
+    font-size:1em ;
+    letter-spacing: 0.2em;
+    margin-bottom: 2em;
+}
+
+.cartes {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    width: calc(100% + 2em);
+    margin: -2em 0 0 -2em;
+    
+} 
+
+
+.unecarte {
+    margin: 2em 0 0 2em;
+    width: calc(100% - 2em);
+    text-align: center;
+    display: block;
+    position: relative;
+    padding: 3em 3em 1em 3em;
+    background-color: #ffffff;
+    text-align: center;
+    border-radius: 2px;
+}
+
+section>div>div>div>img {
+margin: -4.5em 0 2em -3em;
+width: calc(100% + 6em);
+height: 13em;
+display: block;
+border-radius: 2px;
+display: block;
+position: relative;
+}
+
+.unecarte p {
+    padding-bottom: 10vh;
+}
+
+section>div>div>div>h3 {
+    z-index: 1;
+    position: relative;
+    display: inline-block;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    transform: translateY(100%);
+
+}
+
+}
+
+@media all and (max-width: 480px) {
+    #debut p {
+    margin-bottom: 2em;
+    padding-left: 1em;
+    padding-right: 1em;
+    font-size: 10pt;
+ }
+ .titreintro {
+    color: #444444;
+    font-size:1em ;
+    letter-spacing: 0.2em;
+    margin-bottom: 2em;
+}
+
+.cartes {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    width: calc(100% + 2em);
+    margin: -2em 0 0 -2em;
+    
+} 
+
+
+.unecarte {
+    margin: 2em 0 0 2em;
+    width: calc(100% - 1em);
+    text-align: center;
+    display: block;
+    position: relative;
+    padding: 3em 3em 1em 3em;
+    background-color: #ffffff;
+    text-align: center;
+    border-radius: 2px;
+}
+
+section>div>div>div>img {
+margin: -6em 0 2em -3em;
+width: calc(100% + 6em);
+height: 13em;
+display: block;
+border-radius: 2px;
+display: block;
+position: relative;
+}
+
+.unecarte p {
+    padding-bottom: 10vh;
+}
+
+section>div>div>div>h3 {
+    z-index: 1;
+    position: relative;
+    display: inline-block;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    transform: translateY(100%);
+
+}
+
+#epilogue {
+    font-size: 3rem;
+    padding: 0 0.5rem 0.25rem 0.5rem;
+    border-bottom: solid 2px #fff;
+    font-family: "Pacifico";
+}
+
+.head span {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin-top: 20px;
+    font-size: 7.5px;
+
+}
+}
