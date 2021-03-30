@@ -176,6 +176,8 @@ section {
     font-size: 1.35rem;
 }
 
+
+
 /* Section Curabitur */
 
 #curabitur {
@@ -186,34 +188,22 @@ section {
 #curabitur>div {
     height: 520px;
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
 }
 
-#curabitur > div > div:first-of-type {
+#curabitur > div > div:last-of-type {
     width: 32%;
     display: flex;
     flex-direction: column;
     text-align: right;
     justify-content: center;
     padding-right: 104px;
-    padding-left: 145px;
-    
 }
 
 #curabitur h3 {
     color: white;
     font-weight: 700;
     font-size: 1.35rem;
-}
-
-#curabitur > div > div:last-of-type {
-    display: flex;
-    justify-content: right;
-}
-
-#curabitur img {
-    
-    right: 0px;
 }
 
 /* Section Morbi */
